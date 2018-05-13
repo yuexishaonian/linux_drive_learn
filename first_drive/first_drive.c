@@ -10,7 +10,7 @@
 #include <asm/hardware.h>
 
 static struct class *firstdrv_class;
-static struct class_devices *firstdrv_class_dev;
+static struct class_device *firstdrv_class_dev;
 
 volatile unsigned long *gpfcon = NULL;
 volatile unsigned long *gpfdat = NULL;
